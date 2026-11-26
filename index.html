@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shayla Sultana | Python Coder &amp; Website Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* ===== ১. রং (এখান থেকে বদলাতে পারবে) ===== */
+:root{--teal:#0F5C63;--dark:#17394B;--hero:#EEF2F6;--soft:#E7EEF2;--mint:#BFE3DF;--mintline:#A3D5CE;--text:#4A5568}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Roboto',sans-serif;color:var(--text);line-height:1.7;font-size:17px}
+a{color:inherit}
+.wrap{max-width:900px;margin:0 auto;padding:0 24px}
+section{padding:56px 0}
+
+/* ===== ২. মেনু ===== */
+.nav{position:sticky;top:0;background:#fff;z-index:5;box-shadow:0 1px 0 #e3e8ee}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.nav b{letter-spacing:.08em;color:var(--dark);font-size:1.1rem}
+.nav a{text-decoration:none;margin-left:20px}
+.nav a:hover{color:var(--teal)}
+
+/* ===== ৩. হিরো: ছবি/SS, পদবি, নাম, পরিচয় ===== */
+.hero{background:var(--hero);text-align:center;padding:48px 0 56px}
+.avatar{width:170px;height:170px;margin:0 auto 34px;border-radius:50%;border:8px solid var(--mintline);background:linear-gradient(160deg,#E4F4F1,var(--mint));display:grid;place-items:center;font-size:3.4rem;font-weight:700;color:var(--teal);overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.job{letter-spacing:.15em;font-size:.9rem;color:#5b6676}
+.hero h1{font-size:clamp(2rem,6vw,3rem);color:var(--dark);letter-spacing:.02em;margin:10px 0 18px}
+.hero p{max-width:34em;margin:0 auto 28px}
+.btn{display:inline-block;padding:14px 34px;background:var(--teal);color:#fff;border-radius:99px;font-weight:500;text-decoration:none}
+.btn:hover{background:var(--dark)}
+
+/* ===== ৪. শিরোনাম ও স্কিল ট্যাগ ===== */
+h2{letter-spacing:.2em;color:var(--dark);font-size:1.15rem}
+h2::after{content:"";display:block;width:44px;height:3px;background:var(--teal);margin:8px 0 24px}
+.pills{display:flex;flex-wrap:wrap;gap:12px}
+.pills span{background:#F1F4F9;border:1px solid #e1e7f0;border-radius:8px;padding:10px 20px;color:var(--dark)}
+
+/* ===== ৫. কার্ড (Experience, Achievement) ===== */
+.soft{background:var(--soft)}
+.card{background:#fff;border-radius:18px;padding:32px;margin-bottom:22px}
+.card h3{font-size:1.3rem;color:var(--dark)}
+.card small{display:block;color:#7a8594;margin-bottom:14px;font-size:1rem}
+.card ul{list-style:none}
+.card li{margin-bottom:8px;color:var(--dark)}
+.card li::before{content:"•";margin-right:12px}
+
+/* ===== ৬. যোগাযোগ ও ফুটার ===== */
+.contact{text-align:center}
+.contact h2::after{margin:8px auto 24px}
+.contact p{margin-bottom:6px}
+.contact .btn{margin-top:22px}
+footer{text-align:center;padding:22px;font-size:.9rem;background:var(--hero)}
+</style>
+</head>
+
+<body>
+
+<!-- ===== মেনু ===== -->
+<header class="nav"><div class="wrap">
+  <b>SHAYLA SULTANA</b>
+  <nav><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<!-- ===== হিরো =====
+  ছবি দিতে চাইলে নিচের SS মুছে লেখো: <img src="image" alt="Shayla Sultana"> (ছবিটা এই ফোল্ডারে রাখবে) -->
+<section class="hero"><div class="wrap">
+  <div class="avatar">ss</div>
+  <div class="job">PYTHON CODER &amp; WEBSITE DEVELOPER</div>
+  <h1>SHAYLA SULTANA</h1>
+  <p>Hi, I’m Shayla Sultana, a passionate Python coder and Website Developer. I build clean websites, design with Canva, and create professional documents using MS Word.</p>
+  <a class="btn" href="#contact">Contact me</a>
+</div></section>
+
+<!-- ===== স্কিল ===== -->
+<section id="skills"><div class="wrap">
+  <h2>SKILLS</h2>
+  <div class="pills">
+    <span>Python Coding</span><span>Website Development</span><span>Canva Design</span><span>MS Word</span>
+    <span>HTML &amp; CSS</span><span>Responsive Design</span><span>Content Creation</span><span>Problem Solving</span>
+  </div>
+</div></section>
+
+<!-- ===== অভিজ্ঞতা ও অর্জন ===== -->
+<section id="experience" class="soft"><div class="wrap">
+  <div class="card">
+    <h2>EXPERIENCE</h2>
+    <h3>Python Coder &amp; Website Developer</h3>
+    <small>Building projects &amp; continuous learning</small>
+    <ul>
+      <li>Developed responsive websites using HTML, CSS</li>
+      <li>Wrote Python scripts for automation</li>
+      <li>Designed posts &amp; posters using Canva</li>
+      <li>Created professional documents with MS Word</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>ACHIEVEMENT &amp; STRENGTHS</h2>
+    <ul>
+      <li>Built multiple practice websites from scratch</li>
+      <li>Completed Python coding projects</li>
+      <li>Designed creative digital content with Canva</li>
+      <li>Fast learner with strong interest in coding</li>
+      <li>Creative mindset for design &amp; content</li>
+      <li>Bengali (Native), English (Working)</li>
+    </ul>
+  </div>
+</div></section>
+
+<!-- ===== যোগাযোগ ===== -->
+<section id="contact" class="contact"><div class="wrap">
+  <h2>CONTACT</h2>
+  <p>Feel free to reach out for collaborations or opportunities.</p>
+  <p style="margin-top:18px">Phone: <a href="tel:+8801533697699">01533697699</a></p>
+  <p>Email: <a href="mailto:shaylasultna2672@gmail.com">shaylasultna2672@gmail.com</a></p>
+  <p>Location: Bangladesh</p>
+  <a class="btn" href="mailto:shaylasultna2672@gmail.com">Contact me</a>
+</div></section>
+
+<footer>© 2026 Shayla Sultana</footer>
+</body>
+</html>
